@@ -60,7 +60,6 @@ sudo
 tcpdump
 testdisk
 usb_modeswitch
-vim-minimal
 vpnc
 wget
 wireless_tools
@@ -116,7 +115,8 @@ base-devel
 
 #vbox or vmware
 #open-vm-tools  this made it lag
-virtualbox-guest-modules-arch
+virtualbox-guest-dkms
+#virtualbox-guest-modules-arch
 virtualbox-guest-utils
 
 #packages for installer
@@ -217,7 +217,6 @@ poppler-qt5
 ###########################
 
 #applications
-atom
 #catfish
 chromium
 #compton
@@ -229,7 +228,6 @@ feh
 firefox
 #flashplugin
 galculator
-geany
 gimp
 #gmrun
 #gsimplecal
@@ -240,9 +238,10 @@ inkscape
 meld
 #nitrogen
 numlockx
-pragha
+obs-studio
+#pragha
 scrot
-simplescreenrecorder
+#simplescreenrecorder
 termite
 #tint2
 #transmission-gtk
@@ -624,10 +623,35 @@ qt5-xmlpatterns
 
 #Desktop specific
 plasma
-kde-applications-meta
+#kde-applications-meta
 adapta-kde
 arc-kde
 materia-kde
 partitionmanager
 ktorrent
 kdeconnect
+
+#Graphics Software
+blender
+
+#Game engines
+love
+spring
+
+#Game Libraries
+allegro
+sdl2
+sdl2_mixer
+
+# Text Editor
+atom
+code
+emacs
+geany
+gvim
+kate
+nano
+
+# Package manager
+octopi
+yaourt
